@@ -1,7 +1,3 @@
-# Readme
-
-Le document final du projet
-
 # get_next_line
 
 > L'art de retourner une ligne à la fois
