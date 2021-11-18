@@ -33,7 +33,7 @@ La bibliothèque limite.h permet d'utiliser en autre la variabe définie OPEN_MA
 
 ### **Les difficultées rencontré durant la réalisation du projet**
 
-*Les leaks mémoire.* 
+**Les leaks mémoire.** 
 
 Si de la mémoire est alloué dynamiquement, celle-ci doit être libéré une fois qu'elle n'est plus utilisé par le programme pour être à nouveau disponible pour autre chose. Une fuite mémoire ce produit quand des emplacements en mémoire ont été alloué dynamiquement et qu'elle n'ont pas été libéré par le programme. 
 
