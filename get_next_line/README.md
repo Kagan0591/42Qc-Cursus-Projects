@@ -39,23 +39,23 @@ Si de la mémoire est alloué dynamiquement, celle-ci doit être libéré une fo
 
 La mémoire octroyé dynamiquement ce retrouve dans une zone de la mémoire appelé la Heap. Cette zone permet d'allouer de grand bloc de mémoire. C'est principalement l'emplacement ou est stocké la mémoire alloué dynamiquement.
 
-### man get_next_line()
+### man get_next_line (Si il s'agit d'un fonction)
 
-NOM
+**NOM**
 
 get_next_line
 
-SYNOPSIS
+**SYNOPSIS**
 
 **#include "get_next_line.h"**
 
 **char *get_next_line(int fd);**
 
-DESCRIPTION
+**DESCRIPTION**
 
 La fonction get_next_line li depuis un descripteur de fichier passé en paramètre, ligne par ligne. 
 
-VALEUR RETOURNÉ
+**VALEUR RETOURNÉ**
 
 get_next_line renvoie une chaîne de caractère, soit une ligne lue depuis un descripteur de fichier. Si le fichier ne contient aucune donnée elle renvoie NULL. Si un problème survient lors de la lecture du descripteur de fichier, la fonction renvoie NULL également.
 
