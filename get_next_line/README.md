@@ -43,21 +43,21 @@ La mémoire octroyé dynamiquement ce retrouve dans une zone de la mémoire appe
 
 **NOM**
 
-get_next_line
+  get_next_line
 
 **SYNOPSIS**
 
-**#include "get_next_line.h"**
+  **#include "get_next_line.h"**
 
-**char *get_next_line(int fd);**
+    **char *get_next_line(int fd);**
 
 **DESCRIPTION**
 
-La fonction get_next_line li depuis un descripteur de fichier passé en paramètre, ligne par ligne. 
+  La fonction get_next_line li depuis un descripteur de fichier passé en paramètre, ligne par ligne. 
 
 **VALEUR RETOURNÉ**
 
-get_next_line renvoie une chaîne de caractère, soit une ligne lue depuis un descripteur de fichier. Si le fichier ne contient aucune donnée elle renvoie NULL. Si un problème survient lors de la lecture du descripteur de fichier, la fonction renvoie NULL également.
+  get_next_line renvoie une chaîne de caractère, soit une ligne lue depuis un descripteur de fichier. Si le     fichier ne contient aucune donnée elle renvoie NULL. Si un problème survient lors de la lecture du descripteur  de fichier, la fonction renvoie NULL également.
 
 ### Mon approche:
 
